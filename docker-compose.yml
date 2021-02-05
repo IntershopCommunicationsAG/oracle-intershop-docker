@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  oracle-xe-server:
+    image: ${IMAGE}
+    container_name: oracle-xe-server${BUILDID}
+    ports:
+    - "1521:1521"
+    - "5500:5500"
