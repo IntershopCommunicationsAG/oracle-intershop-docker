@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-ARG PREBUILD_DATABASE=false
+ARG PREBUILD_DATABASE=true
 FROM oraclelinux:7-slim
 
 LABEL maintainer="a-team@intershop.de"
