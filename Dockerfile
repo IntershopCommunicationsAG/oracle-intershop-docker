@@ -19,7 +19,7 @@ FROM oraclelinux:7-slim
 LABEL maintainer="a-team@intershop.de"
 LABEL oracleversion="XE 18c"
 
-ARG PREBUILD_DATABASE=false
+ARG PREBUILD_DATABASE=true
 ARG INSTALL_FILE_1="https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-18c-1.0-1.x86_64.rpm"
 ARG PATCH_RPM_7="https://yum.oracle.com/repo/OracleLinux/OL7/latest/x86_64/getPackage/kernel-headers-3.10.0-1127.19.1.el7.x86_64.rpm"
 ARG DEFAULT_PASSWORD="intershop"
