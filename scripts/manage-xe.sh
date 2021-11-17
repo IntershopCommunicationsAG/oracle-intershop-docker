@@ -131,7 +131,7 @@ else
   /home/oracle/bin/manage-init-xe.sh
 
   enableDBExpress
-  echo "Database ready for use..."
+  echo "DATABASE IS READY TO USE!" #being compatible with testcontainers
   tail -F -n 0 /opt/oracle/diag/rdbms/xe/XE/trace/alert_XE.log
 fi
 
