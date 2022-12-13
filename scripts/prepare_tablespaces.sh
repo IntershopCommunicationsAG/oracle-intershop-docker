@@ -72,6 +72,10 @@ start $ORACLE_HOME/rdbms/admin/prvtmetb.plb
 start $ORACLE_HOME/rdbms/admin/prvtmetd.plb
 start $ORACLE_HOME/rdbms/admin/prvtmet2.plb
 start $ORACLE_HOME/rdbms/admin/catmet2.sql
+-- add for PLS-00201: identifier 'DBSNMP.BSLN_INTERNAL' must be declared
+-- https://www.dba-oracle.com/t_pls_00201_identifier_dbsnmp_bsln_internal_must_be_declared.htm
+start $ORACLE_HOME/rdbms/admin/catnsnmp.sql 
+start $ORACLE_HOME/rdbms/admin/catsnmp.sql
 
 -- Remove Text
 --@$ORACLE_HOME/ctx/admin/catnoctx.sql

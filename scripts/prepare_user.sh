@@ -25,6 +25,7 @@ else
     PROFILE DEFAULT ACCOUNT UNLOCK;
 
   ALTER USER &_us DEFAULT ROLE ALL;
+  ALTER PROFILE &_us LIMIT password_life_time UNLIMITED;
 
   GRANT CONNECT                       TO &_us;
   GRANT RESOURCE                      TO &_us;
