@@ -25,7 +25,7 @@ ALTER SYSTEM SET processes                = 180    scope = spfile;
 ALTER SYSTEM SET open_cursors             = 500    scope = both;
 
 // add for test
-ALTER SYSTEM SET DEFERRED_SEGMENT_CREATION = false;
+// ALTER SYSTEM SET DEFERRED_SEGMENT_CREATION = false;
 
 show parameter processes
 show parameter open_cursors
